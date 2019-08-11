@@ -1,5 +1,2 @@
 runtime: custom
 env: flex
-network:
-  forwarded_ports:
-    - 8080
