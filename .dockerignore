@@ -1,5 +1,4 @@
 *.pth
-*.pkl
 .gitignore
 Dockerfile
 README.md
