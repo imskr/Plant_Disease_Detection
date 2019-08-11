@@ -10,8 +10,9 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 <br>
 
 ## Configuration
-* Resnet34 Model
-* Fastai library
+| Model        | Library |Training Platform | Accuracy |
+| ------------- |:-------------:|:-----------------:|:-------------:|
+| Resnet34       | Fastai      |    Google Cloud Platform           |   99.654%     | 
 
 ## Dataset Description:
 
