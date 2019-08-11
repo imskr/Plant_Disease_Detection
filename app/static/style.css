@@ -8,7 +8,9 @@ body {
 
 .center {
     margin: auto;
-    padding: 10px 50px;
+    padding: 10px;
+    padding-left:50px;
+    padding-right:50px;
     text-align: center;
     font-size: 14px;
 }
@@ -40,13 +42,13 @@ body {
 }
 
 button.choose-file-button {
-    width: 200px;
-    height: 40px;
-    border-radius: 2px;
-    background-color: #ffffff;
-    border: solid 1px #7052CB;
-    font-size: 13px;
-    color: #7052CB;
+  width: 200px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #7052CB;
+  font-size: 13px;
+  color: #7052CB;
 }
 
 button.analyze-button {
@@ -59,6 +61,4 @@ button.analyze-button {
     color: #ffffff;
 }
 
-button:focus {
-    outline: 0;
-}
+button:focus {outline:0;}
