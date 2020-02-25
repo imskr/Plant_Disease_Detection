@@ -176,3 +176,7 @@ ipython_config.py
 # Pyre type checker
 
 # End of https://www.gitignore.io/api/flask,python,jupyternotebooks
+
+
+# Virtual Environment
+venv
