@@ -19,6 +19,11 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 **80%** of the dataset is used for training and **20%** for validation.
 <br>
 
+## Local Set-Up
+**Docker:** <br>
+`docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3`  <br>
+ **Go to http://localhost:5000/ to test your app.**
+
 ## Configuration
 | Model        | Library |Training Platform | Accuracy |
 | ------------- |:-------------:|:-----------------:|:-------------:|
