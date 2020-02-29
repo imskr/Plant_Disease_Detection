@@ -25,6 +25,13 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
  **Go to http://localhost:5000/ to test your app.**
 
 ## Server Set-Up:
+<br>**GCP**      - Intermediate</br>
+<br>**Gradient** - Easy</br>
+<br>**AWS EC2**  - Advanced</br>
+
+ 
+
+
 
 
 ## Configuration
