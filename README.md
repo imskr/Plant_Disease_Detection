@@ -55,4 +55,4 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 
 ## Citation
 
-When using any part of this repo, please cite: [Plant Village Paper](https://arxiv.org/abs/1511.08060)
+When using any part of this repo, please cite: [Plant Village Paper](https://arxiv.org/abs/1511.08060).
