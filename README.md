@@ -24,6 +24,9 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 `docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3`  <br>
  **Go to http://localhost:5000/ to test your app.**
 
+## Server Set-Up:
+
+
 ## Configuration
 | Model        | Library |Training Platform | Accuracy |
 | ------------- |:-------------:|:-----------------:|:-------------:|
