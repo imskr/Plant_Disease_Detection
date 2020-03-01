@@ -38,13 +38,6 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 <br>**[Gradient](https://course.fast.ai/start_gradient.html)** - Easy</br>
 **[AWS EC2](https://course.fast.ai/start_aws.html)**  - Advanced
 
- 
-
-
-
-
-
->>>>>>> ea74544948a77e9c2e945996a1b0f313563c6a67
 ## Dataset Description:
 
 |Name           | No of Classes | Class Names
