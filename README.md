@@ -3,7 +3,13 @@
 <img src="app/static/img1.png">
 <br>
 <p align="center">
-  <sub>Created by <a href="https://github.com/imskr"><strong>Shubham Kumar</strong></a>
+  <sub>
+    Created by 
+    <a href="https://github.com/imskr">
+      <strong>Shubham Kumar</strong>
+    </a>
+    <strong> and other contributors</strong>
+  </sub>
 </p>
 <hr noshade>
 <br>
