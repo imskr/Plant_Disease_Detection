@@ -25,9 +25,9 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
  **Go to http://localhost:5000/ to test your app.**
 
 ## Server Set-Up:
-<br>**GCP**      - Intermediate</br>
-<br>**Gradient** - Easy</br>
-<br>**AWS EC2**  - Advanced</br>
+<br>**[GCP](https://course.fast.ai/start_gcp.html)**      - Intermediate</br>
+<br>**[Gradient](https://course.fast.ai/start_gradient.html)** - Easy</br>
+<br>**[AWS EC2](https://course.fast.ai/start_aws.html)**  - Advanced</br>
 
  
 
