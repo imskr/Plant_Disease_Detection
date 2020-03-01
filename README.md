@@ -3,7 +3,16 @@
 <img src="app/static/img1.png">
 <br>
 <p align="center">
-  <sub>Created by <a href="https://github.com/imskr"><strong>Shubham Kumar</strong></a>
+  <sub>
+    Created by 
+    <a href="https://github.com/imskr">
+      <strong>Shubham Kumar </strong>
+    </a>
+    <strong>and</strong>
+    <a href="https://github.com/imskr/Plant_Disease_Detection/graphs/contributors">
+      <strong>other contributors</strong>
+    </a>
+  </sub>
 </p>
 <hr noshade>
 <br>
@@ -19,6 +28,31 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 **80%** of the dataset is used for training and **20%** for validation.
 <br>
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+## Configuration
+| Model        | Library |Training Platform | Accuracy |
+| ------------- |:-------------:|:-----------------:|:-------------:|
+| Resnet34       | Fastai      |    Google Cloud Platform           |   99.654%     | 
+
+=======
+## Local Set-Up
+**Docker:** <br>
+`docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3`  <br>
+ **Go to http://localhost:5000/ to test your app.**
+
+## Server Set-Up (For Training):
+**[GCP](https://course.fast.ai/start_gcp.html)**      - Intermediate
+<br>**[Gradient](https://course.fast.ai/start_gradient.html)** - Easy</br>
+**[AWS EC2](https://course.fast.ai/start_aws.html)**  - Advanced
+
+ 
+
+
+
+
+
+>>>>>>> ea74544948a77e9c2e945996a1b0f313563c6a67
 ## Dataset Description:
 
 |Name           | No of Classes | Class Names
@@ -37,6 +71,9 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 | Squash    |     01        | 'Squash___Powdery_mildew' |
 | Strawberry|     02        | 'Strawberry___Leaf_scorch','Strawberry___healthy' |
 | Tomato    |     10        | Tomato: 'Bacterial_spot','Early_blight', 'Late_blight', 'Leaf_Mold', 'Septoria_leaf_spot', 'Spider_mites','Target_Spot', 'Yellow_Leaf_Curl_Virus', 'Mosaic_virus', 'Healthy' |
+
+## Citation
+When using any part of this repo, please cite: [Plant Village Paper](https://arxiv.org/abs/1511.08060).
 
 <br>
 <p align='center'>
