@@ -48,6 +48,9 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 | Strawberry|     02        | 'Strawberry___Leaf_scorch','Strawberry___healthy' |
 | Tomato    |     10        | Tomato: 'Bacterial_spot','Early_blight', 'Late_blight', 'Leaf_Mold', 'Septoria_leaf_spot', 'Spider_mites','Target_Spot', 'Yellow_Leaf_Curl_Virus', 'Mosaic_virus', 'Healthy' |
 
+## Citation
+When using any part of this repo, please cite: [Plant Village Paper](https://arxiv.org/abs/1511.08060).
+
 <br>
 <p align='center'>
   <a href="https://www.buymeacoffee.com/imskr" target="_blank"><img   src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
