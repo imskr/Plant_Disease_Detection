@@ -6,9 +6,12 @@
   <sub>
     Created by 
     <a href="https://github.com/imskr">
-      <strong>Shubham Kumar</strong>
+      <strong>Shubham Kumar </strong>
     </a>
-    <strong> and other contributors</strong>
+    <strong>and</strong>
+    <a href="https://github.com/imskr/Plant_Disease_Detection/graphs/contributors">
+      <strong>other contributors</strong>
+    </a>
   </sub>
 </p>
 <hr noshade>
