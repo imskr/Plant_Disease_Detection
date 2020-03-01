@@ -3,7 +3,16 @@
 <img src="app/static/img1.png">
 <br>
 <p align="center">
-  <sub>Created by <a href="https://github.com/imskr"><strong>Shubham Kumar</strong></a>
+  <sub>
+    Created by 
+    <a href="https://github.com/imskr">
+      <strong>Shubham Kumar </strong>
+    </a>
+    <strong>and</strong>
+    <a href="https://github.com/imskr/Plant_Disease_Detection/graphs/contributors">
+      <strong>other contributors</strong>
+    </a>
+  </sub>
 </p>
 <hr noshade>
 <br>
