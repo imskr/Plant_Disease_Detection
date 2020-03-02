@@ -32,11 +32,13 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 ### Docker:
 *Make Sure the Docker is installed in your local Machine. [Click Here](https://docs.docker.com/install/) to know that how to install Docker*
 - **Mac:**
-  1. Clone the Repo `git clone https://github.com/imskr/Plant_Disease_Detection.git`
-  2. Changed the directory `cd Plant_Disease_Detection`
-  3. Build the *Docker Image* `docker build -t fastai-v3 .`
-  4. Run the *App* `docker run --rm -it -p 5000:5000 fastai-v3`
-  5. **Go to http://localhost:5000/ to test your app.**
+  ```bash
+  $ git clone https://github.com/imskr/Plant_Disease_Detection.git
+  $ cd Plant_Disease_Detection
+  $ docker build -t fastai-v3 .
+  $ docker run --rm -it -p 5000:5000 fastai-v3
+  ```
+  **Go to http://localhost:5000/ to test your app.**
 - **Windows & Linux:**
   1. `docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3`  <br>
   2. **Go to http://localhost:5000/ to test your app.**
