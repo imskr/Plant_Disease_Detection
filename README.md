@@ -30,7 +30,7 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 
 ## Local Set-Up
 ### Docker:
-*Make Sure the Docker is installed in your local Machine*
+*Make Sure the Docker is installed in your local Machine. [Click Here](https://docs.docker.com/install/) to know that how to install Docker*
 - **Mac:**
   1. Clone the Repo `git clone https://github.com/imskr/Plant_Disease_Detection.git`
   2. Changed the directory `cd Plant_Disease_Detection`
