@@ -21,11 +21,8 @@
 
 ## My Article in [TowardsDataScience](https://t.co/iVmRCeUiDI?amp=1)
 
-Training and evaluating state-of-the-art deep architectures for plant disease classification task using pyTorch. <br/>
 Models are trained on the preprocessed dataset which can be downloaded [here](https://drive.google.com/open?id=0B_voCy5O5sXMTFByemhpZllYREU).<br/>
-Dataset is consisted of **38** disease classes from [PlantVillage](https://plantvillage.org/) dataset and **1** background class from Stanford's open dataset of background images - [DAGS](http://dags.stanford.edu/projects/scenedataset.html).
-<br/>
-**80%** of the dataset is used for training and **20%** for validation.
+
 <br>
 
 ## Local Set-Up
