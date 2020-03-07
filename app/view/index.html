@@ -1,17 +1,25 @@
-<html lang='en'>
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset='utf-8'>
-  <link rel='stylesheet' href='../static/style.css'>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel='stylesheet' href='../static/style.css'>
   <script src='../static/client.js'></script>
+	<title></title>
 </head>
-<body background='../static/background.jpg'>
-<div>
-  <div class='center'>
-    <div class='title'>Plant Disease Detector</div>
-    <p>
-      <strong>Share a picture of a plant!</strong>
-    </p>
-    <div class='content'>
+<body style="background-image:url(../static/background.jpg);background-size: cover;" style="overflow-y:hidden;">
+	<p style="color: #FFFFFF;font-size: 3vw;text-align: center;margin-top: 2%;">PLANT DISEASE DETECTOR</p>
+	<div class="container" style="background-color: white;border-radius: 10px;margin-top: 2%;box-shadow: 5px 5px 4px #888888;opacity: 0.8;">
+  		<div class="row">
+    		<h2 style="text-align: center;">JUST UPLOAD A PLANT PICTURE TO GET THE RESULTS</h2>
+  		</div>
+  		<div class='content' style="align-content: center;">
       <div class='no-display'>
         <input id='file-input'
                class='no-display'
@@ -20,21 +28,21 @@
                accept='image/*'
                onchange='showPicked(this)'>
       </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      <center><button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button></center>
       <div class='upload-label'>
-        <label id='upload-label'>No file chosen</label>
+        <center><label id='upload-label'>NO FILE CHOSEN</label></center>
       </div>
       <div>
-        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+        <center><img id='image-picked' class='no-display' alt='Chosen Image' height='200'></center>
       </div>
       <div class='analyze'>
-        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+        <center><button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button></center>
       </div>
       <div class='result-label'>
-        <label id='result-label'></label>
+        <center><label id='result-label'></label></center>
       </div>
     </div>
-  </div>
-</div>
+	</div>
+	<center><button style="margin-top: 2%;height: 50px;width: 120px;font-size: 20px;" type="button" class="btn btn-primary" onclick="window.location.reload();">Reset</button></center>
 </body>
 </html>
