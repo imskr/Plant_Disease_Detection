@@ -3,7 +3,16 @@
 <img src="app/static/img1.png">
 <br>
 <p align="center">
-  <sub>Created by <a href="https://github.com/imskr"><strong>Shubham Kumar</strong></a>
+  <sub>
+    Created by 
+    <a href="https://github.com/imskr">
+      <strong>Shubham Kumar </strong>
+    </a>
+    <strong>and</strong>
+    <a href="https://github.com/imskr/Plant_Disease_Detection/graphs/contributors">
+      <strong>other contributors</strong>
+    </a>
+  </sub>
 </p>
 <hr noshade>
 <br>
@@ -12,22 +21,27 @@
 
 ## My Article in [TowardsDataScience](https://t.co/iVmRCeUiDI?amp=1)
 
-Training and evaluating state-of-the-art deep architectures for plant disease classification task using pyTorch. <br/>
-Models are trained on the preprocessed dataset which can be downloaded [here](https://drive.google.com/open?id=0B_voCy5O5sXMTFByemhpZllYREU).<br/>
-Dataset is consisted of **38** disease classes from [PlantVillage](https://plantvillage.org/) dataset and **1** background class from Stanford's open dataset of background images - [DAGS](http://dags.stanford.edu/projects/scenedataset.html).
-<br/>
-**80%** of the dataset is used for training and **20%** for validation.
-<br>
+Models are trained on the preprocessed dataset which can be downloaded [here](https://drive.google.com/open?id=0B_voCy5O5sXMTFByemhpZllYREU).
 
 ## Local Set-Up
-**Docker:** <br>
-`docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3`  <br>
- **Go to http://localhost:5000/ to test your app.**
+### Docker:
+*Make Sure the Docker is installed in your local Machine. [Click Here](https://docs.docker.com/install/) to know that how to install Docker*
+- **Mac:**
+  ```bash
+  $ git clone https://github.com/imskr/Plant_Disease_Detection.git
+  $ cd Plant_Disease_Detection
+  $ docker build -t fastai-v3 .
+  $ docker run --rm -it -p 5000:5000 fastai-v3
+  ```
+  **Go to http://localhost:5000/ to test your app.**
+- **Windows & Linux:**
+  1. `docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3`  <br>
+  2. **Go to http://localhost:5000/ to test your app.**
 
-## Configuration
-| Model        | Library |Training Platform | Accuracy |
-| ------------- |:-------------:|:-----------------:|:-------------:|
-| Resnet34       | Fastai      |    Google Cloud Platform           |   99.654%     | 
+## Server Set-Up (For Training):
+**[GCP](https://course.fast.ai/start_gcp.html)**      - Intermediate
+<br>**[Gradient](https://course.fast.ai/start_gradient.html)** - Easy</br>
+**[AWS EC2](https://course.fast.ai/start_aws.html)**  - Advanced
 
 ## Dataset Description:
 
@@ -47,6 +61,9 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 | Squash    |     01        | 'Squash___Powdery_mildew' |
 | Strawberry|     02        | 'Strawberry___Leaf_scorch','Strawberry___healthy' |
 | Tomato    |     10        | Tomato: 'Bacterial_spot','Early_blight', 'Late_blight', 'Leaf_Mold', 'Septoria_leaf_spot', 'Spider_mites','Target_Spot', 'Yellow_Leaf_Curl_Virus', 'Mosaic_virus', 'Healthy' |
+
+## Citation
+When using any part of this repo, please cite: [Plant Village Paper](https://arxiv.org/abs/1511.08060).
 
 <br>
 <p align='center'>
