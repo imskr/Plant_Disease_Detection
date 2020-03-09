@@ -9,16 +9,64 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+<script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
 <link rel='stylesheet' href='../static/style.css'>
   <script src='../static/client.js'></script>
 	<title></title>
 </head>
 <body style="background-image:url(../static/background.jpg);background-size: cover;" style="overflow-y:hidden;">
+	<script type="text/javascript">
+		function bigAnalyseButton(){
+			var e1 = document.getElementById("analyze-button");
+			micron.getEle("#analyze-button").interaction("shake").duration(".45").timing("ease-out");
+		    e1.style.width = "150px";
+		    e1.style.height = "60px";
+		}
+		function smallAnalyseButton(){
+			var e1 = document.getElementById("analyze-button");
+		    e1.style.width = "120px";
+		    e1.style.height = "50px";
+		}
+		function bigChooseButton(){
+			var e1 = document.getElementById("select-button");
+			micron.getEle("#select-button").interaction("tada").duration(".45").timing("ease-out");
+		    e1.style.width = "220px";
+		    e1.style.height = "50px";
+		}
+		function smallChooseButton(){
+			var e1 = document.getElementById("select-button");
+		    e1.style.width = "200px";
+		    e1.style.height = "40px";
+		}
+		function bigResetButton(){
+			var e1 = document.getElementById("reset-button");
+			micron.getEle("#reset-button").interaction("swing").duration(".45").timing("ease-out");
+		    e1.style.width = "150px";
+		    e1.style.height = "60px";
+		}
+		function smallResetButton(){
+			var e1 = document.getElementById("reset-button");
+		    e1.style.width = "120px";
+		    e1.style.height = "50px";
+		}
+		function opaque(){
+			var e1 = document.getElementById("main-div");
+			e1.style.opacity = "0.9";
+		}
+		function faint(){
+			var e1 = document.getElementById("main-div");
+			e1.style.opacity = "0.8";
+		}
+		function load(){
+			micron.getEle("#head").interaction("pop").duration(".45").timing("ease-out");
+		}
+	</script>
 	<p style="color: #FFFFFF;font-size: 3vw;text-align: center;margin-top: 2%;">PLANT DISEASE DETECTOR</p>
 	<!-- Bootstrap based division -->
-	<div class="container" style="background-color: white;border-radius: 10px;margin-top: 2%;box-shadow: 5px 5px 4px #888888;opacity: 0.8;">
+	<div id="main-div" onmouseover="opaque()" onmouseout="faint()" class="container" style="background-color: white;border-radius: 10px;margin-top: 2%;box-shadow: 5px 5px 4px #888888;opacity: 0.8;">
   		<div class="row">
-    		<h2 style="text-align: center;">JUST UPLOAD A PLANT PICTURE TO GET THE RESULTS</h2>
+    		<h2 id="head" onclick="load()" style="text-align: center;">JUST UPLOAD A PLANT PICTURE TO GET THE RESULTS</h2>
   		</div>
   		<div class='content' style="align-content: center;">
       <div class='no-display'>
@@ -29,7 +77,7 @@
                accept='image/*'
                onchange='showPicked(this)'>
       </div>
-      <center><button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button></center>
+      <center><button onmouseover="bigChooseButton()" onmouseout="smallChooseButton()" class='choose-file-button' id="select-button" type='button' onclick='showPicker()'>Select Image</button></center>
       <div class='upload-label'>
         <center><label id='upload-label'>NO FILE CHOSEN</label></center>
       </div>
@@ -37,13 +85,13 @@
         <center><img id='image-picked' class='no-display' alt='Chosen Image' height='200'></center>
       </div>
       <div class='analyze'>
-        <center><button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button></center>
+        <center><button id='analyze-button' class='btn btn-primary' style="height: 50px;width: 120px;font-size: 20px;opacity: 1;" onmouseover="bigAnalyseButton()" onmouseout="smallAnalyseButton()" type='button' onclick='analyze()'>Analyze</button></center>
       </div>
       <div class='result-label'>
         <center><label id='result-label'></label></center>
       </div>
     </div>
 	</div>
-	<center><button style="margin-top: 2%;height: 50px;width: 120px;font-size: 20px;" type="button" class="btn btn-primary" onclick="window.location.reload();">Reset</button></center>
+	<center><button id="reset-button" style="margin-top: 2%;height: 50px;width: 120px;font-size: 20px;" onmouseover="bigResetButton()" onmouseout="smallResetButton()" type="button" class="btn btn-primary" onclick="window.location.reload();">Reset</button></center>
 </body>
 </html>
