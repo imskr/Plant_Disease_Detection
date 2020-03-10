@@ -34,9 +34,17 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
   $ docker run --rm -it -p 5000:5000 fastai-v3
   ```
   **Go to http://localhost:5000/ to test your app.**
-- **Windows & Linux:**
-  1. `docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3`  <br>
-  2. **Go to http://localhost:5000/ to test your app.**
+
+- **Windows:**
+  ```PowerShell or Command Prompt
+  $ git clone https://github.com/imskr/Plant_Disease_Detection.git
+  $ cd Plant_Disease_Detection
+  $ docker build -t fastai-v3 .
+  $ docker run --rm -it -p 5000:5000 fastai-v3
+  ```
+  **Go to http://localhost:5000/ to test your app.**
+    
+- **Linux:**
 
 ## Server Set-Up (For Training):
 **[GCP](https://course.fast.ai/start_gcp.html)**      - Intermediate
