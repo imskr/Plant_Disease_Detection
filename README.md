@@ -43,6 +43,8 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
   $ docker run --rm -it -p 5000:5000 fastai-v3
   ```
   **Go to http://localhost:5000/ to test your app.**
+  
+  **Note:** Windows 10 Pro required.
     
 - **Linux:**
 
