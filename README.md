@@ -30,7 +30,7 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
   ```bash
   $ git clone https://github.com/imskr/Plant_Disease_Detection.git
   $ cd Plant_Disease_Detection
-  $ docker build --no-cache -t fastai-v3 .
+  $ docker build -t fastai-v3 .
   $ docker run --rm -it -p 5000:5000 fastai-v3
   ```
   **Go to http://localhost:5000/ to test your app.**
@@ -39,7 +39,7 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
   ```PowerShell or Command Prompt
   $ git clone https://github.com/imskr/Plant_Disease_Detection.git
   $ cd Plant_Disease_Detection
-  $ docker build --no-cache -t fastai-v3 .
+  $ docker build -t fastai-v3 .
   $ docker run --rm -it -p 5000:5000 fastai-v3
   ```
   **Go to http://localhost:5000/ to test your app.**
