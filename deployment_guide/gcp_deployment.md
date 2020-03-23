@@ -14,6 +14,7 @@ You must create a new project to deploy the *Plant Disease Detection App*
 1. Goto the [**Cloud Resource Manager**](https://console.cloud.google.com/cloud-resource-manager) link
 
 2. Click on `New Project` Button. Set a *Project Name* and *Billing Details*
+
 ![GCP Create project](./images/gcp-create-project.png)
 
 3. Wait for some time, until GCP creates your project
@@ -23,9 +24,11 @@ You must create a new project to deploy the *Plant Disease Detection App*
 Google Cloud Shell is a virtual machine that is loaded with development tools. It provides command-line access to your GCP resources.
 
 1. In GCP console, on the top right toolbar, click the Open Cloud Shell button.
+
 ![GCP open console](./images/gcp-open-console.png)
 
-It takes a few moments to provision and connect to the environment. When you are connected, you are already authenticated, and the project is set to your *PROJECT_ID*. For example:
+It takes a few moments to provision and connect to the environment. When you are connected, you are already authenticated, and the project is set to your *PROJECT_ID*. 
+For example:
 ![GCP console Example](./images/gcp-console-example.png)
 
 ## Download the Plant Disease Detection app
