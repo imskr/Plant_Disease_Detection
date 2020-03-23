@@ -31,18 +31,18 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
   $ git clone https://github.com/imskr/Plant_Disease_Detection.git
   $ cd Plant_Disease_Detection
   $ docker build -t fastai-v3 .
-  $ docker run --rm -it -p 5000:5000 fastai-v3
+  $ docker run --rm -it -p 8080:8080 fastai-v3
   ```
-  **Go to http://localhost:5000/ to test your app.**
+  **Go to http://localhost:8080/ to test your app.**
 
 - **Windows:**
   ```PowerShell or Command Prompt
   $ git clone https://github.com/imskr/Plant_Disease_Detection.git
   $ cd Plant_Disease_Detection
   $ docker build -t fastai-v3 .
-  $ docker run --rm -it -p 5000:5000 fastai-v3
+  $ docker run --rm -it -p 8080:8080 fastai-v3
   ```
-  **Go to http://localhost:5000/ to test your app.**
+  **Go to http://localhost:8080/ to test your app.**
   
   **Note:** Windows 10 Pro required.
     
