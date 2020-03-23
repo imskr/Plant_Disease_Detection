@@ -48,10 +48,12 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
     
 - **Linux:**
 
-## Server Set-Up (For Training):
-**[GCP](https://course.fast.ai/start_gcp.html)**      - Intermediate
-<br>**[Gradient](https://course.fast.ai/start_gradient.html)** - Easy</br>
-**[AWS EC2](https://course.fast.ai/start_aws.html)**  - Advanced
+## Server Set-Up
+- **Google Cloud Platform** - The complete guideline can be found [*here*](./deployment_guide/gcp_deployment.md)
+
+- **Gradient** -  The Easy tutorial can be found [*here*](https://course.fast.ai/start_gradient.html)
+
+- **AWS EC2** - The More Advanced tutorial can be found [*here*](https://course.fast.ai/start_aws.html)
 
 ## Dataset Description:
 
