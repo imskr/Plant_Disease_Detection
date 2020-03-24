@@ -31,27 +31,36 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
   $ git clone https://github.com/imskr/Plant_Disease_Detection.git
   $ cd Plant_Disease_Detection
   $ docker build -t fastai-v3 .
-  $ docker run --rm -it -p 5000:5000 fastai-v3
+  $ docker run --rm -it -p 8080:8080 fastai-v3
   ```
-  **Go to http://localhost:5000/ to test your app.**
+  **Go to http://localhost:8080/ to test your app.**
 
 - **Windows:**
   ```PowerShell or Command Prompt
   $ git clone https://github.com/imskr/Plant_Disease_Detection.git
   $ cd Plant_Disease_Detection
   $ docker build -t fastai-v3 .
-  $ docker run --rm -it -p 5000:5000 fastai-v3
+  $ docker run --rm -it -p 8080:8080 fastai-v3
   ```
-  **Go to http://localhost:5000/ to test your app.**
+  **Go to http://localhost:8080/ to test your app.**
   
   **Note:** Windows 10 Pro required.
     
 - **Linux:**
 
-## Server Set-Up (For Training):
-**[GCP](https://course.fast.ai/start_gcp.html)**      - Intermediate
-<br>**[Gradient](https://course.fast.ai/start_gradient.html)** - Easy</br>
-**[AWS EC2](https://course.fast.ai/start_aws.html)**  - Advanced
+## Deployment
+
+- **Google Cloud Platform:**
+  
+  The complete guideline to deploy the *Plant Disease Detection App* can be found [*here*](./deployment_guide/gcp_deployment.md)
+
+
+## Server Set-Up  (For Training)
+- **Google Cloud Platform (Intermediate)** - The complete tutorial can be found [*here*](https://course.fast.ai/start_gcp.html)
+
+- **Gradient (Easy)** -  The complete tutorial can be found [*here*](https://course.fast.ai/start_gradient.html)
+
+- **AWS EC2 (Advance)** - The complete tutorial can be found [*here*](https://course.fast.ai/start_aws.html)
 
 ## Dataset Description:
 
