@@ -72,6 +72,8 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
 | Strawberry|     02        | 'Strawberry___Leaf_scorch','Strawberry___healthy' |
 | Tomato    |     10        | Tomato: 'Bacterial_spot','Early_blight', 'Late_blight', 'Leaf_Mold', 'Septoria_leaf_spot', 'Spider_mites','Target_Spot', 'Yellow_Leaf_Curl_Virus', 'Mosaic_virus', 'Healthy' |
 
+Before making your valuable contribution to this project do check [CONTRIBUTING.md](https://github.com/imskr/Plant_Disease_Detection/blob/master/CONTRIBUTING.md) file.
+
 ## Citation
 When using any part of this repo, please cite: [Plant Village Paper](https://arxiv.org/abs/1511.08060).
 
