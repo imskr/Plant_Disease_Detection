@@ -48,12 +48,19 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
     
 - **Linux:**
 
-## Server Set-Up
-- **Google Cloud Platform** - The complete guideline can be found [*here*](./deployment_guide/gcp_deployment.md)
+## Deployment
 
-- **Gradient** -  The Easy tutorial can be found [*here*](https://course.fast.ai/start_gradient.html)
+- **Google Cloud Platform:**
+  
+  The complete guideline to deploy the *Plant Disease Detection App* can be found [*here*](./deployment_guide/gcp_deployment.md)
 
-- **AWS EC2** - The More Advanced tutorial can be found [*here*](https://course.fast.ai/start_aws.html)
+
+## Server Set-Up  (For Training)
+- **Google Cloud Platform (Intermediate)** - The complete tutorial can be found [*here*](https://course.fast.ai/start_gcp.html)
+
+- **Gradient (Easy)** -  The complete tutorial can be found [*here*](https://course.fast.ai/start_gradient.html)
+
+- **AWS EC2 (Advance)** - The complete tutorial can be found [*here*](https://course.fast.ai/start_aws.html)
 
 ## Dataset Description:
 
