@@ -1,6 +1,6 @@
 ## Plant Disease Detector
 <br>
-<img src="app/static/img1.png">
+<img src="app/static/SS.png">
 <br>
 <p align="center">
   <sub>
