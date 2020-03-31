@@ -12,12 +12,11 @@ $ pip install -r requirements.txt
 
 # 3. Download the trained model into Webapp folder of the cloned repository from : https://drive.google.com/file/d/186O41SxRGoYZzlFtX6is5dwSLH5zMnPs/view?usp=sharing OR put your own trained model with name "model.h5" in the Webapp folder of the cloned repository. 
 
-# 3. Run the script
+# 4. Run the script
 $ python webapp.py
 ```
 
-Open http://127.0.0.1:5000/ in the browser to run the webapp :D.
+Open http://127.0.0.1:5000/ in the browser to run the webapp.
 
 ### Be careful how your trained model deals with the input otherwise, it won't make correct prediction!
 ### Put the model you trained using Keras notebook with name "model.h5" in the Webapp folder of the cloned repository. 
-![alt text][https://github.com/imskr/Plant_Disease_Detection/Webapp/Webapp.png]
