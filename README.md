@@ -47,6 +47,13 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
   **Note:** Windows 10 Pro required.
     
 - **Linux:**
+  ```bash
+  $ git clone https://github.com/imskr/Plant_Disease_Detection.git
+  $ cd Plant_Disease_Detection
+  $ sudo docker build -t fastai-v3 .
+  $ sudo docker run --rm -it -p 8080:8080 fastai-v3
+  ```
+  **Go to http://localhost:8080/ to test your app.**
 
 ## Deployment
 
