@@ -62,6 +62,10 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
 - **Google Cloud Platform:**
   
   The complete guideline to deploy the *Plant Disease Detection App* can be found [*here*](./deployment_guide/gcp_deployment.md)
+  
+- **AWS Elastic BeanStalk:**
+  
+  The complete guideline to deploy the *Plant Disease Detection App* can be found [*here*](./deployment_guide/aws_deployment.md)
 
 
 ## Server Set-Up  (For Training)
