@@ -1,41 +1,45 @@
-var el = x => document.getElementById(x);
+var uploadFiles;
+function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
 
-function showPicker() {
-  el("file-input").click();
-}
+                reader.onload = function (e) {
+                    $('#selected_image')
+                        .attr('src', e.target.result)
+                        .width(220)
+                        .height(220);
 
-function showPicked(input) {
-  el("upload-label").innerHTML = input.files[0].name;
-  var reader = new FileReader();
-  reader.onload = function(e) {
-    el("image-picked").src = e.target.result;
-    el("image-picked").className = "";
-  };
-  reader.readAsDataURL(input.files[0]);
-}
-
+                };
+                alert("Image selected,Click analyse to proceed further");
+                reader.readAsDataURL(input.files[0]);
+                uploadFiles = input.files;
+            }
+        }
 function analyze() {
-  var uploadFiles = el("file-input").files;
-  if (uploadFiles.length !== 1) alert("Please select a file to analyze!");
-
-  el("analyze-button").innerHTML = "Analyzing...";
-  var xhr = new XMLHttpRequest();
-  var loc = window.location;
-  xhr.open("POST", `${loc.protocol}//${loc.hostname}:${loc.port}/analyze`,
+	if (uploadFiles == null) {
+		alert("Please select a file to analyze!");
+	}
+	else{
+	document.getElementById("analyze-button").innerHTML = "Analyzing..";
+	var xhr = new XMLHttpRequest();
+	var loc = window.location;
+	xhr.open("POST", `${loc.protocol}//${loc.hostname}:${loc.port}/analyze`,
     true);
-  xhr.onerror = function() {
+    xhr.onerror = function() {
     alert(xhr.responseText);
   };
-  xhr.onload = function(e) {
+  xhr.responseType = 'json';
+ // xhr.setRequestHeader('document');
+     xhr.onload = () => {
     if (this.readyState === 4) {
-      var response = JSON.parse(e.target.responseText);
-      el("result-label").innerHTML = `Result = ${response["result"]}`;
+      var response = xhr.response;
+      document.getElementById("result").innerHTML = `Result = ${response["result"]}`;
     }
-    el("analyze-button").innerHTML = "Analyze";
+      document.getElementById("analyze-button").innerHTML = "Analyze";
   };
-
   var fileData = new FormData();
   fileData.append("file", uploadFiles[0]);
   xhr.send(fileData);
 }
-
+}
+//}

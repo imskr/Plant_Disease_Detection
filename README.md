@@ -1,6 +1,6 @@
 ## Plant Disease Detector
 <br>
-<img src="app/static/img1.png">
+<img src="app/static/SS.png">
 <br>
 <p align="center">
   <sub>
@@ -31,17 +31,45 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
   $ git clone https://github.com/imskr/Plant_Disease_Detection.git
   $ cd Plant_Disease_Detection
   $ docker build -t fastai-v3 .
-  $ docker run --rm -it -p 5000:5000 fastai-v3
+  $ docker run --rm -it -p 8080:8080 fastai-v3
   ```
-  **Go to http://localhost:5000/ to test your app.**
-- **Windows & Linux:**
-  1. `docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3`  <br>
-  2. **Go to http://localhost:5000/ to test your app.**
+  **Go to http://localhost:8080/ to test your app.**
 
-## Server Set-Up (For Training):
-**[GCP](https://course.fast.ai/start_gcp.html)**      - Intermediate
-<br>**[Gradient](https://course.fast.ai/start_gradient.html)** - Easy</br>
-**[AWS EC2](https://course.fast.ai/start_aws.html)**  - Advanced
+- **Windows:**
+  ```PowerShell or Command Prompt
+  $ git clone https://github.com/imskr/Plant_Disease_Detection.git
+  $ cd Plant_Disease_Detection
+  $ docker build -t fastai-v3 .
+  $ docker run --rm -it -p 8080:8080 fastai-v3
+  ```
+  **Go to http://localhost:8080/ to test your app.**
+  
+  **Note:** Windows 10 Pro required.
+    
+- **Linux:**
+  ```Terminal
+  $ git clone https://github.com/imskr/Plant_Disease_Detection.git
+  $ cd Plant_Disease_Detection
+  $ docker build -t fastai-v3 .
+  $ docker run --rm -it -p 8080:8080 fastai-v3
+   ```
+   **Note:** If this doesn't work use `--no-cache` flag in the build command.
+   
+  **Go to http://localhost:8080/ to test your app.**
+  
+## Deployment
+
+- **Google Cloud Platform:**
+  
+  The complete guideline to deploy the *Plant Disease Detection App* can be found [*here*](./deployment_guide/gcp_deployment.md)
+
+
+## Server Set-Up  (For Training)
+- **Google Cloud Platform (Intermediate)** - The complete tutorial can be found [*here*](https://course.fast.ai/start_gcp.html)
+
+- **Gradient (Easy)** -  The complete tutorial can be found [*here*](https://course.fast.ai/start_gradient.html)
+
+- **AWS EC2 (Advance)** - The complete tutorial can be found [*here*](https://course.fast.ai/start_aws.html)
 
 ## Dataset Description:
 
@@ -61,6 +89,8 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
 | Squash    |     01        | 'Squash___Powdery_mildew' |
 | Strawberry|     02        | 'Strawberry___Leaf_scorch','Strawberry___healthy' |
 | Tomato    |     10        | Tomato: 'Bacterial_spot','Early_blight', 'Late_blight', 'Leaf_Mold', 'Septoria_leaf_spot', 'Spider_mites','Target_Spot', 'Yellow_Leaf_Curl_Virus', 'Mosaic_virus', 'Healthy' |
+
+Before making your valuable contribution to this project do check [CONTRIBUTING.md](https://github.com/imskr/Plant_Disease_Detection/blob/master/CONTRIBUTING.md) file.
 
 ## Citation
 When using any part of this repo, please cite: [Plant Village Paper](https://arxiv.org/abs/1511.08060).
