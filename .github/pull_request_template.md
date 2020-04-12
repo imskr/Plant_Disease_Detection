@@ -1,5 +1,5 @@
-<!-- 
-The title of the pull request should be of this format <Title_of_Issue>_resolved 
+<!--
+The title of the pull request should be of this format <Title_of_Issue>_resolved
 The PR should be raised only after making all changes relevant to the issue (all commits)
 -->
 
@@ -23,7 +23,7 @@ _Put an `x` in the boxes that apply_
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] Documentation update (Documentation content changed)
-- [ ] Other (please describe): 
+- [ ] Other (please describe):
 
 ## Checklist
 
