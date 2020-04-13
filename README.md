@@ -28,9 +28,7 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
 - It is recommended to set this project up inside a virtual environment to keep dependencies separated and for easy debugging. Resources:
     * [Python](https://realpython.com/python-virtual-environments-a-primer/#why-the-need-for-virtual-environments)
     * [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-- Clone this repository by using `git clone https://github.com/imskr/Plant_Disease_Detection.git` or clone your forked repository.
-- Move inside the directory `cd Plant_Disease_Detection`
-- Activate your virtual environment. (references in the first step)
+- Activate your virtual environment
 - Install dependencies by running `pip install -r requirements.txt`
 - Start up the server by running `python app/server.py serve`
 - Visit <http://localhost:8080/> to explore and test.
