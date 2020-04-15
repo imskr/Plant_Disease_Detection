@@ -1,5 +1,5 @@
 # These owners will be the default owners for everything in
 # the repo. Unless a later match takes precedence,
-# @imskr, @Ishaan28malik and @atcodedog32 will be requested for
+# @imskr, @Ishaan28malik, @atcodedog32 and @ShubhikaBhardwaj will be requested for
 # review when someone opens a pull request.
 *   @imskr @Ishaan28malik @atcodedog32 @ShubhikaBhardwaj
