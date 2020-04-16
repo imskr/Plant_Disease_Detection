@@ -4,7 +4,7 @@
 <br>
 <p align="center">
   <sub>
-    Created by 
+    Created by
     <a href="https://github.com/imskr">
       <strong>Shubham Kumar </strong>
     </a>
@@ -24,6 +24,15 @@
 Models are trained on the preprocessed dataset which can be downloaded [here](https://drive.google.com/open?id=0B_voCy5O5sXMTFByemhpZllYREU).
 
 ## Local Set-Up
+### Local:
+- It is recommended to set this project up inside a virtual environment to keep dependencies separated and for easy debugging. Resources:
+    * [Python](https://realpython.com/python-virtual-environments-a-primer/#why-the-need-for-virtual-environments)
+    * [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+- Activate your virtual environment
+- Install dependencies by running `pip install -r requirements.txt`
+- Start up the server by running `python app/server.py serve`
+- Visit <http://localhost:8080/> to explore and test.
+
 ### Docker:
 *Make Sure the Docker is installed in your local Machine. [Click Here](https://docs.docker.com/install/) to know that how to install Docker*
 - **Mac:**
@@ -43,9 +52,9 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
   $ docker run --rm -it -p 8080:8080 fastai-v3
   ```
   **Go to http://localhost:8080/ to test your app.**
-  
+
   **Note:** Windows 10 Pro required.
-    
+
 - **Linux:**
   ```Terminal
   $ git clone https://github.com/imskr/Plant_Disease_Detection.git
@@ -54,13 +63,13 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
   $ docker run --rm -it -p 8080:8080 fastai-v3
    ```
    **Note:** If this doesn't work use `--no-cache` flag in the build command.
-   
+
   **Go to http://localhost:8080/ to test your app.**
-  
+
 ## Deployment
 
 - **Google Cloud Platform:**
-  
+
   The complete guideline to deploy the *Plant Disease Detection App* can be found [*here*](./deployment_guide/gcp_deployment.md)
   
 - **AWS Elastic BeanStalk:**
