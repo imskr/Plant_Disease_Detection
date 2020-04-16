@@ -17,8 +17,6 @@
 <hr noshade>
 <br>
 
-## Visit: [Plant-Disease-Detector](http://plantdisease.ap-south-1.elasticbeanstalk.com/)
-
 ## My Article in [TowardsDataScience](https://t.co/iVmRCeUiDI?amp=1)
 
 Models are trained on the preprocessed dataset which can be downloaded [here](https://drive.google.com/open?id=0B_voCy5O5sXMTFByemhpZllYREU).
