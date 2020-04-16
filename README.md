@@ -17,7 +17,10 @@
 <hr noshade>
 <br>
 
-## Visit: [Plant-Disease-Detector](http://plantdisease.ap-south-1.elasticbeanstalk.com/)
+## Visit: [Plant-Disease-Detector]
+<!-- (http://plantdisease.ap-south-1.elasticbeanstalk.com/) 
+    This link is currently broken, update when link works! -->
+The link will be updated soon!
 
 ## My Article in [TowardsDataScience](https://t.co/iVmRCeUiDI?amp=1)
 
