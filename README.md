@@ -23,16 +23,16 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
 
 ## Local Set-Up
 ### Local:
-- It is recommended to set this project up inside a virtual environment to keep dependencies separated and for easy debugging. Resources:
+- It is recommended to set up the project inside a virtual environment to keep the dependencies separated.
     * [Python](https://realpython.com/python-virtual-environments-a-primer/#why-the-need-for-virtual-environments)
     * [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-- Activate your virtual environment
-- Install dependencies by running `pip install -r requirements.txt`
-- Start up the server by running `python app/server.py serve`
+- Activate your virtual environment.
+- Install dependencies by running `pip install -r requirements.txt`.
+- Start up the server by running `python app/server.py serve`.
 - Visit <http://localhost:8080/> to explore and test.
 
 ### Docker:
-*Make Sure the Docker is installed in your local Machine. [Click Here](https://docs.docker.com/install/) to know that how to install Docker*
+*Make Sure the Docker is installed in your local Machine. [Click Here](https://docs.docker.com/install/) to know that how to install Docker*.
 - **Mac:**
   ```bash
   $ git clone https://github.com/imskr/Plant_Disease_Detection.git
