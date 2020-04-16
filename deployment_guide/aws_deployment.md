@@ -127,7 +127,7 @@ Goto **Elastic Beanstalk > Application** and you can see something like this
 Enter the following command to create the Environment
 
 ```bash
-eb create
+eb create -i t2.large
 ```
 
 1. Enter the Environment name
@@ -162,6 +162,10 @@ Select a load balancer type
 Would you like to enable Spot Fleet requests for this environment?
 (y/N):
 ```
+
+Go to in your `EB Management Console` and you will find the `Application` and `Environment`.
+
+![deployed-banner](./images/aws-deployed-banner.png)
 
 *Elastic Beanstalk will create your environment and deploy it. It will take around 5 minutes*
 
