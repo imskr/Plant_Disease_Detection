@@ -5,8 +5,8 @@
 ```shell
 # 1. Clone this repo
 $ git clone https://github.com/imskr/Plant_Disease_Detection.git
-$ cd app
-$ local_flask
+$ cd deployment_guide
+$ cd local_flask
 
 # 2. Install requirements i.e. Python Packages
 $ pip install -r requirements.txt
