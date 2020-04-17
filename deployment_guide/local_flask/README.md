@@ -20,4 +20,4 @@ $ python webapp.py
 Open http://127.0.0.1:5000/ in the browser to run the webapp.
 
 ### Be careful how your trained model deals with the input otherwise, it won't make correct prediction!
-### Put the model you trained using Keras notebook with name "model.h5" in the local_flask folder of the cloned repository. 
+### Put the model you trained using Keras notebook with name "model.h5" in the deployment_guide/local_flask folder of the cloned repository. 
