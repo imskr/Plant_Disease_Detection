@@ -31,6 +31,10 @@ Models are trained on the preprocessed dataset which can be downloaded [here](ht
 - Start up the server by running `python app/server.py serve`.
 - Visit <http://localhost:8080/> to explore and test.
 
+### Video Demonstration
+
+[![Watch the video](app/static/thumbnail.png)](https://youtu.be/ADIHI0BOA38)
+
 ### Docker:
 *Make Sure the Docker is installed in your local Machine. [Click Here](https://docs.docker.com/install/) to know that how to install Docker*.
 - **Mac:**
