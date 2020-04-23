@@ -21,7 +21,7 @@ body {
 #result {
     font-family: "Muli-Regular";
     color: #696969;
-    left: 1120px;
+    left: 1050px;
     bottom: 35px;
     font-size: 20px;
     position: fixed;
@@ -38,7 +38,7 @@ button {
     font-size: 50px;
     position: fixed;
     font-weight: 900;
-    left: 1120px;
+    left: 1050px;
     top: 70px;
 }
 
@@ -121,13 +121,13 @@ form {
     position: fixed;
     padding: 50px 50px 50px;
     top: 350px;
-    left: 1120px;
+    left: 1050px;
     border: 1px #696969;
 }
 
 .imgboxtext {
     top: 500px;
-    left: 1120px;
+    left: 1050px;
 }
 
 .add {
@@ -145,7 +145,7 @@ form {
     font-family: "Muli-Regular";
     color: #696969;
     top: 250px;
-    left: 1120px;
+    left: 1050px;
     font-size: 20px;
     position: fixed;
 }
