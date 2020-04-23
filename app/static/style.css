@@ -120,7 +120,7 @@ form {
     background-color: #C0C0C0;
     position: fixed;
     padding: 50px 50px 50px;
-    top: 350px;
+    top: 300px;
     left: 1050px;
     border: 1px #696969;
 }
@@ -144,7 +144,7 @@ form {
 .text {
     font-family: "Muli-Regular";
     color: #696969;
-    top: 250px;
+    top: 200px;
     left: 1050px;
     font-size: 20px;
     position: fixed;
