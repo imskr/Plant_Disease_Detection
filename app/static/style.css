@@ -21,8 +21,8 @@ body {
 #result {
     font-family: "Muli-Regular";
     color: #696969;
-    top: 800px;
     left: 1120px;
+    bottom: 35px;
     font-size: 20px;
     position: fixed;
 }
