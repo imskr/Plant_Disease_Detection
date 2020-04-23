@@ -12,7 +12,6 @@
 //     };
 //     alert("Image selected,Click analyse to proceed further");
 //     reader.readAsDataURL(input.files[0]);
-//     uploadFiles = input.files;
 //   }
 // }
 // function analyze() {
@@ -44,6 +43,25 @@
 // }
 
 $(document).ready(function () {
+
+	function readURL(input) {
+		if (input.files && input.files[0]) {
+			var reader = new FileReader();
+
+			reader.onload = function (e) {
+				$('#selected_image')
+					.attr('src', e.target.result)
+					.width(220)
+					.height(220);
+			}
+			reader.readAsDataURL(input.files[0]);
+		}
+	}
+
+	$('#imagefile').change(function () {
+		readURL(this);
+	});
+
 
 	$("form#analysis-form").submit(function (event) {
 		event.preventDefault();
