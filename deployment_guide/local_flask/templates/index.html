@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Plant Disease Detector</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+		<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>		
+<script src="../static/client.js"></script>
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="../static/style.css">
+		<link rel = "icon" href =  
+"../static/leaf.png" 
+        type = "image/x-icon">
+	</head>
+
+	<body>
+		<div class="container"><img src="../static/bgd.jpg" id="right"></div>
+		<!-- <div class="wrapper"> -->
+		<div class="heading">
+		 PLANT DISEASE DETECTOR</div>
+			<div class="text">
+				<p><b>Share a picture of the plant and get immediate results!</b></p></div>
+		<!-- </div> -->
+			<div class="inner">
+				<form action="">
+						<div class="imgbox"><img src="../static/img.jpg" class="img" id="selected_image">
+							<div class="middle">
+								<div class="add"><span>SELECT IMAGE</span></div>
+								<input name="Select File" id="selected_image" type="file" onchange="readURL(this)" />
+							</div></div>
+					<button id="analyze-button" class="analyze-button" onclick="analyze()">
+						<span>Analyze</span>
+					</button>
+				</form>
+				<div id="result"><b>Result</b></div>
+			</div>
+	</body>
+</html>
