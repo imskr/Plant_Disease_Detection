@@ -6,7 +6,7 @@ We love your input! We want to make contributing to this project as easy and tra
 
 - Discussing the current state of the code
 - [Reporting a bug](https://github.com/imskr/Plant_Disease_Detection/blob/master/.github/ISSUE_TEMPLATE/bug_report_template.md)
-- [Submitting a fix](https://github.com/imskr/Plant_Disease_Detection/blob/master/.github/ISSUE_TEMPLATE/pull_request_template.md)
+- [Submitting a fix](https://github.com/imskr/Plant_Disease_Detection/blob/master/pull_request_template.md)
 - [Proposing new features](https://github.com/imskr/Plant_Disease_Detection/blob/master/.github/ISSUE_TEMPLATE/feature_request_template.md)
 
 ## Steps to follow :scroll:
@@ -127,7 +127,7 @@ git push -u origin Branch_Name
 ```
 
 Finally, go to your repository in browser and click on `compare and pull requests`.
-Use our [pull request template format](https://github.com/imskr/Plant_Disease_Detection/blob/master/.github/ISSUE_TEMPLATE/pull_request_template.md).
+Use our [pull request template format](https://github.com/imskr/Plant_Disease_Detection/blob/master/pull_request_template.md).
 Then add a title and description to your pull request that explains your precious effort. 
 
 Sit and relax till we review your PR, you've made your contribution to our project.
