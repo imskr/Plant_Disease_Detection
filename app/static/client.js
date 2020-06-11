@@ -7,8 +7,8 @@ $(document).ready(function () {
 			reader.onload = function (e) {
 				$('#selected_image')
 					.attr('src', e.target.result)
-					.width(220)
-					.height(220);
+					.width(176)
+					.height(176);
 			}
 			reader.readAsDataURL(input.files[0]);
 		}
