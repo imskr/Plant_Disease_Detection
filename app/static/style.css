@@ -14,16 +14,16 @@
 body {
     background-color: #C0C0C0;
     font-family: "Muli-Regular";
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
 }
 
 #result {
     font-family: "Muli-Regular";
     color: #696969;
-    left: 1050px;
-    bottom: 35px;
-    font-size: 20px;
+    left: 840px;
+    bottom: 28px;
+    font-size: 16px;
     position: fixed;
 }
 
@@ -35,29 +35,30 @@ button {
     letter-spacing: 1px;
     color: #013220;
     font-family: 'Abril Fatface', cursive;
-    font-size: 50px;
+    font-size: 40px;
     position: fixed;
     font-weight: 900;
-    left: 1050px;
-    top: 70px;
+    left: 840px;
+    top: 56px;
 }
 
+
 .img {
-    border-radius: 25px;
-    width: 220px;
-    height: 220px;
-    left: 1130px;
-    top: 350px;
+    border-radius: 24px;
+    width: 176px;
+    height: 176px;
+    left: 904px;
+    top: 280px;
 }
 
 .imgbox {
     transition: box-shadow .3s;
-    border-radius: 25px;
+    border-radius: 24px;
     border: 1px #696969;
-    width: 220px;
-    height: 220px;
-    left: 1130px;
-    top: 350px;
+    width: 176px;
+    height: 176px;
+    left: 904px;
+    top: 280px;
     text-align: center;
 }
 
@@ -81,14 +82,16 @@ button {
 
 .inner {
     position: fixed;
-    width: 435px;
+    width: 348px;
 }
+
+
 
 .github-corner:hover .octo-arm {
     animation: octocat-wave 560ms ease-in-out
 }
 
-@media (max-width:500px) {
+@media (max-width:400px) {
     .github-corner:hover .octo-arm {
         animation: none
     }
@@ -113,30 +116,30 @@ button {
 }
 
 form {
-    border-radius: 25px;
+    border-radius: 24px;
     filter: drop-shadow(2px 2px 2px #000);
-    width: 330px;
-    height: 380px;
+    width: 264px;
+    height: 304px;
     background-color: #C0C0C0;
     position: fixed;
-    padding: 50px 50px 50px;
-    top: 300px;
-    left: 1050px;
+    padding: 40px 40px 40px;
+    top: 240px;
+    left: 840px;
     border: 1px #696969;
 }
 
 .imgboxtext {
-    top: 500px;
-    left: 1050px;
+    top: 400px;
+    left: 840px;
 }
 
 .add {
     background: #013220;
     font-family: "Muli-Regular";
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
-    width: 90px;
-    height: 40px;
+    width: 72px;
+    height: 32px;
     color: #fff;
     letter-spacing: 1px;
 }
@@ -144,9 +147,9 @@ form {
 .text {
     font-family: "Muli-Regular";
     color: #696969;
-    top: 200px;
-    left: 1050px;
-    font-size: 20px;
+    top: 160px;
+    left: 840px;
+    font-size: 16px;
     position: fixed;
 }
 
@@ -161,17 +164,17 @@ form {
 #right {
     border-radius: 0% 60% 50% 0%;
     height: auto;
-    width: 950px;
-    left: 1100px;
-    box-shadow: 0 50px 50px rgba(0, 0, 0, 1), 0 50px 50px rgba(0, 0, 0, 1);
+    width: 760px;
+    left: 880px;
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 1), 0 40px 40px rgba(0, 0, 0, 1);
 }
 
 button {
     border: none;
     width: 100%;
-    height: 49px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    height: 45px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -181,11 +184,16 @@ button {
     color: #fff;
     text-transform: uppercase;
     font-family: "Muli-SemiBold";
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 2px;
     transition: all 0.5s;
     position: relative;
     overflow: hidden;
+}
+
+button span {
+    position: relative;
+    z-index: 2;
 }
 
 button span {
