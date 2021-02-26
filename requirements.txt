@@ -1,5 +1,5 @@
 aiofiles==0.4.0
-aiohttp==3.5.4
+aiohttp==3.7.4
 asyncio==3.4.3
 fastai==1.0.60
 torch==1.4.0
