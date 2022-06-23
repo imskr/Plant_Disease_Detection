@@ -2,4 +2,4 @@
 .gitignore
 Dockerfile
 README.md
-deployment_guide/
+deployment_guide
